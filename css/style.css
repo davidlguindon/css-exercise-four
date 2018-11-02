@@ -2,3 +2,31 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+}
+h2 {
+  font-size: 26px
+}
+.TopLeft  {
+    position: absolute;
+    top: : 8px;
+    left: 16px;
+}
+
+.ImageContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+  color: black;
+    font-size: 28px;
+
+.ImageContainer h1P{
+  position: absolute;
+}
