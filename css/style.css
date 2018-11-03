@@ -2,31 +2,82 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+*, *:before, *:after {
+  box-sizing: border-box;
 }
+
 h2 {
   font-size: 26px
 }
-.TopLeft  {
-    position: absolute;
-    top: : 8px;
-    left: 16px;
+
+.ImageContainerBaku {
+  width: 600px;
+  height: 350px;
+  position: relative;
+  background-image: url("../images/baku.jpg");
+  background-size: cover;
+  background-color: red;
+  padding-bottom: 0px;
+  border-bottom: gray solid 20px;
+}
+.ImageContainerLondon {
+  width: 600px;
+  height: 350px;
+  position: relative;
+  background-image: url("../images/london.png");
+  background-size: cover;
+  background-color: red;
+  padding-bottom: 0px;
+  border-bottom: gray solid 20px;
+}
+.ImageContainerMadrid {
+  width: 600px;
+  height: 350px;
+  position: relative;
+  background-image: url("../images/madrid.jpg");
+  background-size: cover;
+  background-color: red;
+  padding-bottom: 0px;
+  border-bottom: gray solid 20px;
+}
+.ImageContainerRome {
+  width: 600px;
+  height: 350px;
+  position: relative;
+  background-image: url("../images/rome.jpg");
+  background-size: cover;
+  background-color: red;
+  padding-bottom: 0px;
+  border-bottom: gray solid 20px;
 }
 
-.ImageContainer {
-    position: relative;
-    text-align: center;
-    color: white;
-    background-color: red;
-}
-img {
-    max-width: 100%;
-    height: auto;
+.ImagePadding {
+  width: 600px;
+  padding 20px;
 }
 
-h1{
-  color: black;
-    font-size: 28px;
-
-.ImageContainer h1P{
+.TopLeft {
   position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  color: black;
+  font-size: 28px;
+}
+
+.Header {
+  width: 600px;
+  background-color: gray;
+  color: black;
+  padding: 10px;
+  padding-bottom: 20px;
+  text-align: center;
 }
