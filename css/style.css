@@ -12,7 +12,7 @@ h2 {
 }
 
 .ImageContainerBaku {
-  width: 350px;
+  width: 45%;
   height: 350px;
   position: relative;
   background-image: url("../images/baku.jpg");
@@ -24,7 +24,7 @@ h2 {
 
 }
 .ImageContainerLondon {
-  width: 350px;
+  width: 45%;
   height: 350px;
   position: relative;
   background-image: url("../images/london.png");
@@ -35,7 +35,7 @@ h2 {
   border-right: lightgray solid 20px;
 }
 .ImageContainerMadrid {
-  width: 350px;
+  width: 45%;
   height: 350px;
   position: relative;
   background-image: url("../images/madrid.jpg");
@@ -46,7 +46,7 @@ h2 {
   border-right: lightgray solid 20px;
 }
 .ImageContainerRome {
-  width: 350px;
+  width: 45%;
   height: 350px;
   position: relative;
   background-image: url("../images/rome.jpg");
@@ -90,7 +90,7 @@ h1 {
     color: white;
 }
 
-@media (min-width: 350px) {
+@media (min-width: 922px) {
 .ImageContainerBaku{
   float: left;
 }
